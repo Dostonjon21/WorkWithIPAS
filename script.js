@@ -19,4 +19,4 @@ let user = {
     }
   };
   
-  alert(user.fullName); // John Smith
+  alert(user.fullName); 
