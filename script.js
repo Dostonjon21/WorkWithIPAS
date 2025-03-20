@@ -113,8 +113,9 @@ document.body.append(img);
 // выводим на экран
 img.src = URL.createObjectURL(blob);
 
-setTimeout(() => { // прячем через три секунды
+setTimeout(() => { 
   img.remove();
   URL.revokeObjectURL(img.src);
 }, 3000);
+
 
